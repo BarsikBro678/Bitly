@@ -50,7 +50,7 @@ def main():
     load_dotenv()
     bitly_token = os.environ["BITLY_TOKEN"]
     parser = argparse.ArgumentParser(
-        description='Описание что делает программа'
+        description='Программа укарачивает ссылки. А по укороченной ссылке считает сумму кликов по ней.'
     )
     parser.add_argument("user_url", help="Введите ссылку: ")
     args = parser.parse_args()
