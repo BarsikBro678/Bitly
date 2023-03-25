@@ -21,21 +21,21 @@ pip install -r requirements.txt
 
 ### Как запустить
 
-Введите команду "python main.py ваша_ссылка" в консоли питона.
+Введите команду "python main.py _ваша_ссылка_" в терминале.
 
 ### Примеры результата
-Ввод                                                       Вывод
+Ввод--------------------------------------------------------Вывод
 ```
-python main.py https://google.com                          Битлинк:  https://bitly.is/3iUkkp3
-```
-```
-python main.py https://bitly.is/3iUkkp3                    Количество кликов по ссылке : 0                  
+python main.py https://google.com                           Битлинк:  https://bitly.is/3iUkkp3
 ```
 ```
-python main.py google.com                                  Ошибка при запросе bitly
+python main.py https://bitly.is/3iUkkp3                     Количество кликов по ссылке : 0                  
 ```
 ```
-pyhton main.py https://gaagle.ra                           Ошибка при запросе bitly
+python main.py google.com                                   Ошибка при запросе bitly
+```
+```
+pyhton main.py https://gaagle.ra                            Ошибка при запросе bitly
 ```
 
 ### Цель проекта
