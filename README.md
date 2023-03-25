@@ -29,7 +29,7 @@ pip install -r requirements.txt
 python main.py https://google.com                           Битлинк:  https://bitly.is/3iUkkp3
 ```
 ```
-python main.py https://bitly.is/3iUkkp3                     Количество кликов по ссылке : 0                  
+python main.py https://bitly.is/3iUkkp3                     Количество кликов по ссылке : 0            
 ```
 ```
 python main.py google.com                                   Ошибка при запросе bitly
